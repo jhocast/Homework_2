@@ -31,6 +31,8 @@
 		288A238F19BD1F1C00D7D514 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		288A239219BD1F1C00D7D514 /* Homework_2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Homework_2-Prefix.pch"; sourceTree = "<group>"; };
 		288A239319BD1F1C00D7D514 /* Homework_2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Homework_2.1; sourceTree = "<group>"; };
+		288A239C19BD301300D7D514 /* words */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words; sourceTree = "<group>"; };
+		288A239D19BD303400D7D514 /* words.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = words.zip; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				288A238F19BD1F1C00D7D514 /* main.m */,
+				288A239C19BD301300D7D514 /* words */,
+				288A239D19BD303400D7D514 /* words.zip */,
 				288A239319BD1F1C00D7D514 /* Homework_2.1 */,
 				288A239119BD1F1C00D7D514 /* Supporting Files */,
 			);
