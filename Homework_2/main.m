@@ -9,19 +9,15 @@
 #import <Foundation/Foundation.h>
 #include <stdio.h>
 
-
 int main(int argc, const char * argv[])
 {
-
     @autoreleasepool {
-        
         NSDate *startTime = [NSDate date];
         NSFileManager *filemgr;
         
         filemgr = [NSFileManager defaultManager];
         NSString *path = @"/Users/jhoncastrillon/Desktop/CS411/Homework_2/Homework_2/words";
         if ([filemgr fileExistsAtPath: path ] == YES) {
-        
             NSError *error;
             NSArray *listItems = [[NSString stringWithContentsOfFile: path
                                                             encoding: NSUTF8StringEncoding
