@@ -14,8 +14,11 @@ int main(int argc, const char * argv[])
     @autoreleasepool {
         NSDate *startTime = [NSDate date];
         NSFileManager *filemgr;
+        NSString *currentPath;
         
         filemgr = [NSFileManager defaultManager];
+        currentPath = [filemgr currentDirectoryPath];
+        NSLog(@"Current Directory is %@", currentPath);
         NSString *path = @"/Users/jhoncastrillon/Desktop/CS411/Homework_2/Homework_2/words";
         if ([filemgr fileExistsAtPath: path ] == YES) {
             NSError *error;
